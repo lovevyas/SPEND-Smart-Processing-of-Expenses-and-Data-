@@ -1,2 +1,59 @@
-myenv
-env
+# -------------------------
+# Python / Virtual Env
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+myenv/
+myEve/
+.env
+.env.*
+
+# -------------------------
+# OS / Editor junk
+# -------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -------------------------
+# Streamlit
+# -------------------------
+.streamlit/
+.streamlit/secrets.toml
+
+# -------------------------
+# OCR / Temp files
+# -------------------------
+*.log
+*.tmp
+*.jpg
+*.jpeg
+*.png
+
+# Uncomment if you want to keep sample images
+# !data/samples/*.jpg
+# !data/samples/*.png
+
+# -------------------------
+# Database
+# -------------------------
+*.db
+*.sqlite
+*.sqlite3
+
+# -------------------------
+# Gemini / API keys
+# -------------------------
+credentials.json
+
+# -------------------------
+# Build / Cache
+# -------------------------
+build/
+dist/
+.eggs/
+pip-wheel-metadata/
